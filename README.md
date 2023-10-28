@@ -56,8 +56,12 @@ To get a better picture of what it is doing, or going to do, here are three snap
 ![img](./public/assets/images/add_a_note.png)
 ---
 ---
-### Then finally the note is stored in the database after you select save.
+### Then also the note is stored in the database after you select save.
 ![img](./public/assets/images/add_a_note.png)
+---
+---
+### Then finally the note is stored in db with uuid.
+![img](./public/assets/images/uuidindb.png)
 ---
 
 
