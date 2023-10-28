@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const PORT = process.env.PORT || 3001;
+const { v4: uuidv4 } = require('uuid');
+
 
 
 const app = express();
@@ -31,7 +33,8 @@ app.post("/api/notes", function (req, res) {
 
     const newNote = {
         title,
-        text
+        text,
+        note_id: uuidv4(),
     };
 
     // Get current notes to parse them.

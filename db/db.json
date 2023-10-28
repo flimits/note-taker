@@ -4,23 +4,13 @@
         "text": "Note text"
     },
     {
-        "title": "Push update to Github",
-        "text": "Make sure to push the latest changes to github repo for note-taker"
-    },
-    {
-        "title": "Deploy to Heroku",
-        "text": "Make sure to deploy your code to Heroku and run it there."
-    },
-    {
-        "title": "Update Readme",
-        "text": "Update and polish off the readme ASAP"
+        "title": "Take wife out for dinner",
+        "text": "Got eat mexican food",
+        "note_id": "98633260-44d0-4de2-a64a-c88856a1c89f"
     },
     {
         "title": "Make coffee",
-        "text": "Use the best coffee you can tonight."
-    },
-    {
-        "title": "Take another note",
-        "text": "comone"
+        "text": "The best stuff",
+        "note_id": "e38b5cc0-f7f4-4598-8bde-521ef01d3875"
     }
 ]
