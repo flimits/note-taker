@@ -2,28 +2,22 @@
 This is an application that can be used to write and save notes.
 
 ## Description and Motivation
-The following project is to create an application that will make SVG files. The file can contain the shapes of either a circle, square or a triangle. You will also add a color background to the shape as well as characters in the middle of it, and pick that color as well.
+This application is created to allow a user to create notes for themself. Little reminders that can be viewed at any time (like a TODO list). When done with the note, then you can delete it.
 
 It should looks something like this:
 
-![img](./examples/logo.svg)
+![img](./public/assets/images/opening_page.png)
 
-I built application with the thought and understanding that people could use a graphical genterator of basic shapes and have the opertunity to add colors for the shape and letters that you might want to put in there. It can eventually be expanded to build animations, add pictures or be used on someone's profile page.
-
-The coding here covers much of what we learned over the last week and applied so that it will be solidified in my mind.
+It is built with the understanding that a user just might need a simple place to make and store notes. 
 
 
 ## Usage
 
-The way you use this Application is:
-- start up a commandline prompt in the directory of the cloned application.
-- Run NPM install to install any dependancies: `npm install`  // This will install packages withing the package.json file
-- Then execute the app with: `node index.js`  // This is the root of the running program.
-- There are also tests to be run on this project. It echecks the more important classes that build the SVG files.
-- To do this, you would `cd lib; npm run test`
+This application is deployed to Heroku. It is an interactive site that you only need to start taking notes and then you will see them show up to the right of the page. Though not necessary at this time, the delete button does not work. I will work on that shortly.
 
-Here is a link to the video that was taken to show you the process I used to run this application.
-[Video of SVG Generator and Usage](https://watch.screencastify.com/v/8VTWFo4wkMpBOOnFfGIJ)
+Here is the link to the Deployed Application ...
+[Note Taker Deployed on Heroku](https://peaceful-beach-36610-5568a2a82f62.herokuapp.com/)
+
 
 ## Table of Contents
 
@@ -38,35 +32,46 @@ Here is a link to the video that was taken to show you the process I used to run
 
 | Technology Used         | Resource URL           | 
 | ------------- |:-------------:| 
+| Heroku | [https://www.heroku.com//](https://www.heroku.com/)     |    
 | Git | [https://git-scm.com/](https://git-scm.com/)     |    
-| Javascript | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-| Google Search | [https://www.google.com/](https://www.google.com/)
-| Stack Overflow | [https://stackoverflow.com/](https://stackoverflow.com/)
-| Digital Ocean for inquirer Help| [https://www.digitalocean.com/](https://www.digitalocean.com/)
-| W3Schools for JS | [https://www.w3schools.com/](https://www.w3schools.com/)
-| Dev for badges | [https://dev.to/cicirello/badges-tldr-for-your-repositorys-readme-3oo3](https://dev.to/cicirello/badges-tldr-for-your-repositorys-readme-3oo3)
+| NPM and ExpressJs | [https://www.npmjs.com/package/express](https://www.npmjs.com/package/express)|
+| NodeJs | [https://nodejs.org/en](https://nodejs.org/en)|
+| ChatGPT | [https://openai.com/blog/chatgpt](https://openai.com/blog/chatgpt)|
 
+There is also javascript, Google Search, and Youtube university. 
 ## Repo 
 
-[GitHub Repo](https://github.com/flimits/svg-maker)
+[GitHub Repo for Note-Taker](https://github.com/flimits/note-taker)
 
 
 ## Screenshots of Application
 ---
-### main code
-![img](./examples/logooutput.png)
+To get a better picture of what it is doing, or going to do, here are three snapshots to look at.
+
+### Here is the opening page.
+![img](./public/assets/images/opening_page.png)
 ---
 ---
-### Classes
-![img](./examples/class%20parent%20and%20child%20.png)
+### This one is creating a new Note (notice it is not in the notes yet)
+![img](./public/assets/images/add_a_note.png)
+---
+---
+### Then finally the note is stored in the database after you select save.
+![img](./public/assets/images/add_a_note.png)
 ---
 
 
 ## Learning Points 
 
+Thought the assignment ended up not being too difficult, it was a good exploration in expressjs and route and port assignment. I needed to read, re-watch some of the videos from school, youtube, and a ton of examples in order to finally see what I was missing. This type of stuff will be fun once copletely understood.
+
+### Somee lessons a little more painful to add on it
+
 It took me forever to get Heroku login. I suggest doing it as soon as humanly possible. Also had to wait for logins to be completed on Heroku's side before proceeding to get rights to publishing functionality. Other than that, it is a good platform to publish code (that is not html-only).
 
 Another one was understanding how expressjs handles routing. this took a long time to understand, and takes a lot of playing around and reading on it. Once this is down, it will be super cool to keep playing with it.
+
+AskBcs, Chatgpt and Google helped a lot.
 
 ## Code Snippets
 
