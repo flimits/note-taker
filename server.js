@@ -17,9 +17,9 @@ app.get("/", function (req, res) {
     console.log(`${req.method} just for slash`);
 });
 
-app.get("/api/notes", function (req, res) {
+app.get("/api/notes", (req, res) => {
     res.sendFile(path.join(__dirname, 'db/db.json'));
-    console.log(`${req.method} this is api call fo notes`)
+    console.log(`${req.method} this is api call fo notes`);
 });
 
 app.post("/api/notes", function (req, res) {
@@ -34,22 +34,22 @@ app.post("/api/notes", function (req, res) {
         text
     };
 
-    // Obtain existing reviews
+    // Get current notes to parse them.
     fs.readFile('./db/db.json', 'utf8', (err, data) => {
         if (err) {
             console.error(err);
         } else {
-            const parsedNotes = JSON.parse(data);
+            const notesDb = JSON.parse(data);
 
             // Let's add a new note
-            parsedNotes.push(newNote);
+            notesDb.push(newNote);
 
             db.push(newNote);
 
             // Update the note db with latest note added.
             fs.writeFile(
                 './db/db.json',
-                JSON.stringify(parsedNotes, null, 4),
+                JSON.stringify(notesDb, null, 4),
                 (writeErr) =>
                     writeErr
                         ? console.error(writeErr)

@@ -1,10 +1,18 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "Note Title",
+        "text": "Note text"
     },
     {
-        "title": "test",
-        "text": "sdf"
+        "title": "Push update to Github",
+        "text": "Make sure to push the latest changes to github repo for note-taker"
+    },
+    {
+        "title": "Deploy to Heroku",
+        "text": "Make sure to deploy your code to Heroku and run it there."
+    },
+    {
+        "title": "Update Readme",
+        "text": "Update and polish off the readme ASAP"
     }
 ]
