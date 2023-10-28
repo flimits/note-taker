@@ -5,7 +5,6 @@ const PORT = process.env.port || 3001;
 
 const app = express();
 const db = require('./db/db.json');
-// const { publicDecrypt } = require('crypto');
 
 app.use(express.static('public'));
 app.use(express.json());
